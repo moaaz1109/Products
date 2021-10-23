@@ -1,0 +1,30 @@
+.product-card{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.product-card__image{
+    object-fit: contain;
+    width: 160px;
+    height: 160px;
+   border: 1px solid rgb(233, 121, 16);
+}
+
+.product-card__title{
+font-size: 16px;
+font-weight:600;
+
+}
+
+.product-card__info{
+    padding-left: 20px;
+}
+
+.product-card__info > button{
+    background-color: #f0c14b;
+    border: 1px solid ;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+
+}
